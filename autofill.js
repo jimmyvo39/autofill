@@ -6,9 +6,9 @@ function onOpen() {
   }
   
   function showForm() {
-    // id is found in url
+    // id is found in url, replace everthing between brackets, keep quotes
     var templateId = '[google doc ID]';
-    var folderId = 'google drive folder ID';
+    var folderId = '[google drive folder ID]';
   
     var template = DriveApp.getFileById(templateId);
     var doc = DocumentApp.openById(templateId);
