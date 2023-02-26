@@ -6,7 +6,7 @@ function onOpen() {
   }
   
   function showForm() {
-    // id is found in url, replace everthing between brackets, keep quotes
+    // id is found in url, replace everthing bracket to bracket, keep quotes
     var templateId = '[google doc ID]';
     var folderId = '[google drive folder ID]';
   
